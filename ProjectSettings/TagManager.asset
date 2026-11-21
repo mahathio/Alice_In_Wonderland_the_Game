@@ -56,6 +56,9 @@ TagManager:
   - name: Player
     uniqueID: 3440584057
     locked: 0
+  - name: Enemy
+    uniqueID: 766497743
+    locked: 0
   - name: WalkBehind
     uniqueID: 2773485739
     locked: 0
