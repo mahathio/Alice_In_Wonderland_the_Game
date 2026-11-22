@@ -3149,10 +3149,11 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 4.917843, y: 5.7704196}
+    - - {x: 5.646885, y: 5.795063}
       - {x: -31.949837, y: 5.8034196}
       - {x: -31.92336, y: -4.360495}
-      - {x: 4.8976874, y: -4.096982}
+      - {x: 5.1506977, y: -4.100652}
+      - {x: 5.674358, y: -4.096982}
   m_UseDelaunayMesh: 1
 --- !u!1 &312608021
 GameObject:
@@ -4059,7 +4060,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.01463254, y: 0.35433996, z: -15}
+  m_LocalPosition: {x: 0.016644552, y: 0.36030996, z: -15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8855,7 +8856,7 @@ Transform:
   m_GameObject: {fileID: 979822683}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.01635126, y: 1.0839078, z: -15}
+  m_LocalPosition: {x: 0.017133566, y: 1.0839078, z: -15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9145,6 +9146,7 @@ GameObject:
   - component: {fileID: 1450567851}
   - component: {fileID: 1450567850}
   - component: {fileID: 1450567852}
+  - component: {fileID: 1450567853}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -9314,6 +9316,28 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.8919489, y: 1}
   m_EdgeRadius: 0
+--- !u!95 &1450567853
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1450567847}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d769481f1fe5646d1831abbd31675b04, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1466137644
 GameObject:
   m_ObjectHideFlags: 0

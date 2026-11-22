@@ -4,22 +4,18 @@ public class NewMonoBehaviourScript : MonoBehaviour
 {
     [Header("Movement")]
     [SerializeField] private float moveSpeed = 5f;
-
-    /* [Header("Ground Check")]
-    [SerializeField] private Transform groundCheck;
-    [SerializeField] private float groundCheckRadius = .2f;
-    [SerializeField] private LayerMask groundLayer; */
+    private Animator animator;
 
     private PlayerControls playerControls;
     private Vector2 movement;
+    private Vector2 lastMovement = Vector2.down;
     private Rigidbody2D rigidBody;
-    private bool isGrounded;
-
 
     private void Awake()
     {
         playerControls = new PlayerControls();
         rigidBody = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     private void OnEnable()
@@ -35,19 +31,12 @@ public class NewMonoBehaviourScript : MonoBehaviour
     private void Update()
     {
         PlayerInput();
-        // CheckIsGrounded();
-        // Debug.Log(movement.x);
     }
 
     private void PlayerInput()
     {
         movement = playerControls.Movement.Move.ReadValue<Vector2>();
     }
-
-    /* private void CheckIsGrounded()
-    {
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
-    } */
 
     private void FixedUpdate()
     {
@@ -57,5 +46,22 @@ public class NewMonoBehaviourScript : MonoBehaviour
     private void Move()
     {
         rigidBody.MovePosition(rigidBody.position + movement * moveSpeed * Time.fixedDeltaTime);
+
+        bool isMoving = movement.sqrMagnitude > 0.001f;
+
+        if (animator != null)
+        {
+            animator.SetBool("isWalking", isMoving);
+            animator.SetFloat("InputX", movement.x);
+            animator.SetFloat("InputY", movement.y);
+
+            if (isMoving)
+            {
+                lastMovement = movement.normalized;
+            }
+
+            animator.SetFloat("LastInputX", lastMovement.x);
+            animator.SetFloat("LastInputY", lastMovement.y);
+        }
     }
 }
