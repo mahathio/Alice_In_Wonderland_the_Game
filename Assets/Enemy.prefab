@@ -27,7 +27,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -8.98, y: -7.55, z: 0}
-  m_LocalScale: {x: 4, y: 4, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 434055815972846333}
@@ -81,7 +81,7 @@ SpriteRenderer:
   m_SortingLayer: 6
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -3242060885894329142, guid: f92f76c9000df4b9bbb8af835d9d648e, type: 3}
+  m_Sprite: {fileID: -3583796078616205805, guid: 5c4323bd465c64384bab46e967d2b37c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -138,7 +138,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   unitName: Mother Pigeon
-  unitLevel: 2
-  damage: 5
   maxHP: 30
   currentHP: 30
+  damage: 5

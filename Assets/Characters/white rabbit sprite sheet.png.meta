@@ -1,0 +1,678 @@
+fileFormatVersion: 2
+guid: ef31ebf9b0cec4a279279d75b603493f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6196038101790615920
+    second: white rabbit sprite sheet_0
+  - first:
+      213: -3824601850165814392
+    second: white rabbit sprite sheet_1
+  - first:
+      213: 9020033021074241730
+    second: white rabbit sprite sheet_2
+  - first:
+      213: -2977660175535187791
+    second: white rabbit sprite sheet_3
+  - first:
+      213: -5272117166634501270
+    second: white rabbit sprite sheet_4
+  - first:
+      213: 4702754021497998482
+    second: white rabbit sprite sheet_5
+  - first:
+      213: -967496124113084939
+    second: white rabbit sprite sheet_6
+  - first:
+      213: 6213863256376551124
+    second: white rabbit sprite sheet_7
+  - first:
+      213: -1490444374768412015
+    second: white rabbit sprite sheet_8
+  - first:
+      213: -7066103095832068766
+    second: white rabbit sprite sheet_9
+  - first:
+      213: -8257130720454448358
+    second: white rabbit sprite sheet_10
+  - first:
+      213: 4303327504737377301
+    second: white rabbit sprite sheet_11
+  - first:
+      213: -6473625247292235071
+    second: white rabbit sprite sheet_12
+  - first:
+      213: -570516780213027930
+    second: white rabbit sprite sheet_13
+  - first:
+      213: -3073237296032722168
+    second: white rabbit sprite sheet_14
+  - first:
+      213: 3687632658698635879
+    second: white rabbit sprite sheet_15
+  - first:
+      213: -416114715513454574
+    second: white rabbit sprite sheet_16
+  - first:
+      213: 1836532742515214092
+    second: white rabbit sprite sheet_17
+  - first:
+      213: -8636206163570651213
+    second: white rabbit sprite sheet_18
+  - first:
+      213: -142229120896035573
+    second: white rabbit sprite sheet_19
+  - first:
+      213: -7721488157695723780
+    second: white rabbit sprite sheet_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: white rabbit sprite sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 159
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 079e30853dfbcf550800000000000000
+      internalID: 6196038101790615920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white rabbit sprite sheet_1
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 127
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88b909181e84ceac0800000000000000
+      internalID: -3824601850165814392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white rabbit sprite sheet_2
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 159
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c87c631e389d2d70800000000000000
+      internalID: 9020033021074241730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white rabbit sprite sheet_3
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 127
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b8d56fb8d93da6d0800000000000000
+      internalID: -2977660175535187791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white rabbit sprite sheet_4
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 127
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6bf28cae5da5d6b0800000000000000
+      internalID: -5272117166634501270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white rabbit sprite sheet_5
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 127
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29c8d65cdd9834140800000000000000
+      internalID: 4702754021497998482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white rabbit sprite sheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 95
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fd1ca0b663c292f0800000000000000
+      internalID: -967496124113084939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white rabbit sprite sheet_7
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 95
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d62d2f85b31c3650800000000000000
+      internalID: 6213863256376551124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white rabbit sprite sheet_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 95
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19a1374ecb0e05be0800000000000000
+      internalID: -1490444374768412015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white rabbit sprite sheet_9
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 98
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26d34a21ca820fd90800000000000000
+      internalID: -7066103095832068766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white rabbit sprite sheet_10
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 95
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1be85f9b57c86d80800000000000000
+      internalID: -8257130720454448358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white rabbit sprite sheet_11
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 95
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51c1a08c09d78bb30800000000000000
+      internalID: 4303327504737377301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white rabbit sprite sheet_12
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 113
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c26526e2201926a0800000000000000
+      internalID: -6473625247292235071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white rabbit sprite sheet_13
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 100
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6abb009d20e1518f0800000000000000
+      internalID: -570516780213027930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white rabbit sprite sheet_14
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 102
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 803dc7346faa955d0800000000000000
+      internalID: -3073237296032722168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white rabbit sprite sheet_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 63
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76a8cdb7d5a1d2330800000000000000
+      internalID: 3687632658698635879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white rabbit sprite sheet_16
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 63
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2100204fed9a93af0800000000000000
+      internalID: -416114715513454574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white rabbit sprite sheet_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 63
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c074ef78cccac7910800000000000000
+      internalID: 1836532742515214092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white rabbit sprite sheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 31
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bf05553048062880800000000000000
+      internalID: -8636206163570651213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white rabbit sprite sheet_19
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 41
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b05964c3e53b60ef0800000000000000
+      internalID: -142229120896035573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white rabbit sprite sheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf639274e63c7d490800000000000000
+      internalID: -7721488157695723780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      white rabbit sprite sheet_0: 6196038101790615920
+      white rabbit sprite sheet_1: -3824601850165814392
+      white rabbit sprite sheet_10: -8257130720454448358
+      white rabbit sprite sheet_11: 4303327504737377301
+      white rabbit sprite sheet_12: -6473625247292235071
+      white rabbit sprite sheet_13: -570516780213027930
+      white rabbit sprite sheet_14: -3073237296032722168
+      white rabbit sprite sheet_15: 3687632658698635879
+      white rabbit sprite sheet_16: -416114715513454574
+      white rabbit sprite sheet_17: 1836532742515214092
+      white rabbit sprite sheet_18: -8636206163570651213
+      white rabbit sprite sheet_19: -142229120896035573
+      white rabbit sprite sheet_2: 9020033021074241730
+      white rabbit sprite sheet_20: -7721488157695723780
+      white rabbit sprite sheet_3: -2977660175535187791
+      white rabbit sprite sheet_4: -5272117166634501270
+      white rabbit sprite sheet_5: 4702754021497998482
+      white rabbit sprite sheet_6: -967496124113084939
+      white rabbit sprite sheet_7: 6213863256376551124
+      white rabbit sprite sheet_8: -1490444374768412015
+      white rabbit sprite sheet_9: -7066103095832068766
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
